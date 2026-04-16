@@ -1,0 +1,53 @@
+# docker-compose.dev.yml — development overrides
+#
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build
+#
+# Changes from production compose:
+#   • Backend: uvicorn --reload, source mounted as volume
+#   • Frontend: `next dev`, source mounted as volume, HMR enabled
+#   • Nginx: not started (services exposed directly on their ports)
+
+version: "3.9"
+
+services:
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      target: builder          # stop at builder stage — includes dev tools
+    volumes:
+      - ./backend:/app         # live source mount for --reload
+      - faiss_data:/app/faiss_index
+      - upload_data:/app/uploads
+    environment:
+      ENVIRONMENT: development
+      LOG_LEVEL: DEBUG
+    command:
+      - uvicorn
+      - app.main:app
+      - --host=0.0.0.0
+      - --port=8000
+      - --reload
+      - --reload-dir=/app/app
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      target: deps             # deps stage only — no build step needed for dev
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules      # anonymous volume so host node_modules don't override
+      - /app/.next             # same for .next cache
+    environment:
+      NODE_ENV: development
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    command: npm run dev
+    ports:
+      - "3000:3000"
+
+  nginx:
+    profiles:
+      - disabled               # nginx excluded from default dev stack

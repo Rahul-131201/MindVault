@@ -1,0 +1,174 @@
+2026-04-13T18:34:31.268139Z [info     ] app_created                    [app.main] app=rag-backend env=development
+2026-04-13T18:34:31.275243Z [info     ] app_startup                    [app.main] app=rag-backend embedding_provider=openai env=development environment=development llm_provider=openai port=8000 vector_store=faiss
+2026-04-13T18:34:31.279589Z [info     ] warmup_start                   [app.main] app=rag-backend env=development
+2026-04-13T18:34:32.229058Z [info     ] embeddings_init                [app.rag.utils] app=rag-backend env=development model=text-embedding-3-small provider=openai
+2026-04-13T18:34:33.001991Z [warning  ] warmup_failed                  [app.main] app=rag-backend env=development error=unhashable type: 'OpenAIEmbeddings'
+2026-04-13T18:41:51.221510Z [info     ] app_shutdown                   [app.main] app=rag-backend env=development
+2026-04-13T18:42:00.974017Z [info     ] app_created                    [app.main] app=rag-backend env=development
+2026-04-13T18:42:00.983684Z [info     ] app_startup                    [app.main] app=rag-backend embedding_provider=openai env=development environment=development llm_provider=openai port=8000 vector_store=faiss
+2026-04-13T18:42:01.001847Z [info     ] warmup_start                   [app.main] app=rag-backend env=development
+2026-04-13T18:42:01.958685Z [info     ] embeddings_init                [app.rag.utils] app=rag-backend env=development model=text-embedding-3-small provider=openai
+2026-04-13T18:42:02.757672Z [warning  ] warmup_failed                  [app.main] app=rag-backend env=development error=unhashable type: 'OpenAIEmbeddings'
+2026-04-13T18:44:23.361289Z [info     ] app_shutdown                   [app.main] app=rag-backend env=development
+2026-04-13T18:44:34.498494Z [info     ] app_created                    [app.main] app=rag-backend env=development
+2026-04-13T18:44:34.507787Z [info     ] app_startup                    [app.main] app=rag-backend embedding_provider=openai env=development environment=development llm_provider=openai port=8000 vector_store=faiss
+2026-04-13T18:44:34.513008Z [info     ] warmup_start                   [app.main] app=rag-backend env=development
+2026-04-13T18:44:35.450018Z [info     ] embeddings_init                [app.rag.utils] app=rag-backend env=development model=text-embedding-3-small provider=openai
+2026-04-13T18:44:36.213564Z [warning  ] warmup_failed                  [app.main] app=rag-backend env=development error=unhashable type: 'OpenAIEmbeddings'
+2026-04-13T18:44:45.429154Z [info     ] app_created                    [app.main] app=rag-backend env=development
+2026-04-13T18:44:45.443498Z [info     ] app_startup                    [app.main] app=rag-backend embedding_provider=openai env=development environment=development llm_provider=openai port=8000 vector_store=faiss
+2026-04-13T18:44:45.447137Z [info     ] warmup_start                   [app.main] app=rag-backend env=development
+2026-04-13T18:44:46.380048Z [info     ] embeddings_init                [app.rag.utils] app=rag-backend env=development model=text-embedding-3-small provider=openai
+2026-04-13T18:44:47.129900Z [warning  ] warmup_failed                  [app.main] app=rag-backend env=development error=unhashable type: 'OpenAIEmbeddings'
+2026-04-13T18:47:03.381775Z [info     ] app_shutdown                   [app.main] app=rag-backend env=development
+/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=9ff30ac6-78d5-4ad5-8a2c-24603e3b3681 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:36.432422Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.56 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=9c5e9a67-2e7d-4734-a580-942148064e1e status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:37.950885Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.6 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=47393821-ed84-4fa6-9e66-eda6b6ee690e status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:39.484312Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.66 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=4417ba21-6e17-4802-a299-6c1f3b549403 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:41.015611Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.53 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=39900c63-3c02-4023-9edd-539abac4c5de status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:42.550641Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.62 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=60515a24-efc4-4989-af09-c6f92ee40c6e status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:44.081798Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.41 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=18b06b82-204e-4767-951e-0a8a72fff25c status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:45.619125Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.6 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=e0705163-bc3f-44d6-8eb2-a1a25ccb46e4 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:47.150674Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.46 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=2c3fc41f-7a57-4b71-bc54-948499b4ae29 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:48.681728Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.52 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=601aee67-55c1-426d-a5ab-c331c9a524f3 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:50.198954Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.59 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=417bf1e8-5562-4397-8002-5e2ffeadf09c status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:51.734592Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.69 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=316113cf-3392-43ed-ab52-21d1bffd5604 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:53.265767Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.52 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=74710a4a-7800-48a6-8ea4-3c9047d931fe status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:54.799029Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.69 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=6d1f022d-db89-4c77-b47e-66cd63ec242b status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:56.332568Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.69 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=3f60036c-e065-4e10-934a-c023a4b402e2 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:57.867244Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.59 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=76fdc52d-76fb-4205-82c4-b78056842ead status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:37:59.400234Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.44 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=5c8326a8-b246-4379-bd21-8a3acf3c6758 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:00.915298Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.58 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=1115a170-a2e3-495b-bc57-d7492285ca06 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:02.433939Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.55 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=f088a52d-9a19-44a9-a79b-09de3565d151 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:03.966724Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.49 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=4770b46e-0ee8-4d37-bac6-d1925ead0664 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:05.499341Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.69 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=0d2bf685-9c68-482c-b3d2-949dbba6bfb8 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:07.016004Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.42 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=148e7f12-adb8-46ea-8259-5060cfa9472a status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:08.551458Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.6 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=6d3e0720-323c-4b2e-b5d1-95caf68afb42 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:10.083238Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.46 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=3b7a25d7-b576-4d6b-a2da-7387f14458ea status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:11.616557Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.41 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=0515cf7c-ff79-47ca-9b21-e1d609a788d6 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:13.151356Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.54 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=92bbaca0-6727-4b25-bb2d-e2b24f34c915 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:14.665853Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.46 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=a3e4e4ae-47c6-4571-9412-3c474201fcc9 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:16.203164Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.44 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=5ec67b67-cee1-471a-8fa0-8f029f319621 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:17.733162Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.75 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=443012c2-b03b-4854-b58e-5b8032651dd9 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:19.269296Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.63 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=af541fb7-e279-4ba2-94d5-ede9ff048a2f status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:20.800055Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.64 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=5f1e5c5b-6467-403a-88fa-e978e04001dc status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:22.333109Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.56 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=850f048f-e44e-496f-9058-a78b40c860ee status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:23.869562Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.45 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=cfa9f8f0-65ea-4519-85a2-32d5a393959a status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:25.401288Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.44 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=a454d2af-6236-4b65-807e-714df36fc4be status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:26.919622Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.57 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=5d98ce91-1645-4d0f-a09f-fda09cc0697f status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:28.453505Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.59 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=a0cba291-1d13-4f67-9cce-f10f88e16d9e status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:29.988510Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.43 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=1a1a2f6a-160f-466b-839c-10f42e77777b status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:31.517489Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.68 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=4deefd09-3060-4849-aa8f-8f28dbe26e4f status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:33.052727Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.58 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=f9119bca-03c9-4a06-a186-cd86e9453d12 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:34.583026Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.49 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=1a3ac3b1-3035-4c1f-aa33-3af96c770456 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:36.104635Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.52 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=38cc6dd4-043e-4096-b006-cb599d0f7583 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:37.633829Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.47 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=fd050a67-5294-4e84-a2ef-9116cf7ad6c3 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:39.150998Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.57 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=66abe979-7cc1-4453-8a79-742c2c09e6e3 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:40.666796Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.6 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=241b4adb-d0a9-4842-9051-41055322b5cf status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:42.200066Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.45 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=231e67e4-6ba4-460e-97cc-988a4539c43a status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:43.735698Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.57 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=1c356b0a-a581-400c-b420-a987e0ed5cd6 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:45.269500Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.52 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=745a8590-4177-4483-93b6-4c5ac481527b status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:46.803217Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.42 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=7539da4b-a92f-45de-ac56-0cb934bd211b status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:48.318866Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.49 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=78d93f4b-93a5-4164-a49e-3053b7c6aac1 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:49.850097Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.89 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=5b23c81b-ea97-4584-b97a-c5cd5b5aa112 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:51.370000Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.58 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=6229ffe0-9c1d-4637-b74f-69bb1d27b8dc status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:52.884451Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.42 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=1d788c20-f1c3-4423-96c9-c44eb1e42d89 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:54.417346Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.5 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=4c70a9cd-d7c7-4486-88f0-da4138e368c9 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:55.954456Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.47 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=8aca9029-7315-4a7c-8f4f-12a213187710 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:57.489399Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.51 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=130ab40b-0d89-4365-ad1b-b17ee8741944 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:38:59.020536Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.43 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=2420a305-2eae-4b4f-87f1-45a65437d83d status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:00.554880Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.47 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=c3d2c4ec-ce9c-4c55-8a1a-abbd67f1d54a status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:02.069893Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.58 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=f24b20e4-0836-427b-959c-c1cafbcebb69 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:03.603783Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.58 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=ae52e25c-9ade-464a-a144-1069e4b6d9f6 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:05.118587Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.46 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=0f66675e-28c1-4866-b6c7-75e563fab957 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:06.651384Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.47 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=5f31a768-e328-4ecb-b56e-d371ec759a3d status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:08.187011Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.41 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=de9acbe6-aa87-4e01-8b33-50ad3abf67da status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:09.717633Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.44 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=db78094f-857a-4919-9fe4-a2d10ce74a46 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:11.251511Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.41 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=dad37fb6-0110-4084-b88c-9c8db8f21e50 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:12.786381Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.41 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=b7eb42e5-bb33-4eb6-ac96-db226d4aa1c6 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:14.320059Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.5 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=b93045b0-7fc0-486d-b167-26df8e250779 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:15.855152Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.6 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=0d6824da-2ff8-456a-843a-58c2f19ee5ad status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:17.369927Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.4 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=e56ecbf9-d59e-4e2e-8bde-3879b38462db status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:18.901161Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.41 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=a5181233-173b-4bd8-a0fc-dfe664b913c2 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:20.435612Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.54 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=6610b803-c2c9-4bbe-b075-403f5dcc3e47 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:21.971435Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.44 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=8b9be3d7-c1df-41af-9aa2-db28147bf143 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:23.501394Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.42 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=73e105fc-763a-4559-b7c5-9bdacd907d40 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:25.037300Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.71 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=0daf985f-d044-469f-9a7c-7dedd15e5118 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:26.569709Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.4 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=5cc90da9-4b4a-43e8-aedc-f983e0344ad9 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:39:28.102778Z [info     ] http_request                   [http] app=rag-backend elapsed_ms=0.59 env=development method=GET path=/api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status request_id=db6272f7-6a86-4012-bf8e-bd6b91973e14 status_code=200
+INFO:     127.0.0.1:59153 - "GET /api/ingest/2fa29a9e-a4df-499f-a6ef-05b6fc2451bf/status HTTP/1.1" 200 OK
+2026-04-13T18:41:51.221510Z [info     ] app_shutdown                   [app.main] app=rag-backend env=development

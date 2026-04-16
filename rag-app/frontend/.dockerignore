@@ -1,0 +1,35 @@
+# Node artefacts (handled by Docker layer caching)
+node_modules/
+.npm/
+
+# Next.js build output (rebuilt inside container)
+.next/
+out/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Tests / CI
+__tests__/
+coverage/
+.nyc_output/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Docs
+*.md
+Dockerfile
+.dockerignore
+docker-compose*.yml
+.github/

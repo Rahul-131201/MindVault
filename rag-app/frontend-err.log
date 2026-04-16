@@ -1,0 +1,34 @@
+ ⨯ ./app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/typography'
+Require stack:
+- C:\Users\Rahul\Final RAG\rag-app\frontend\tailwind.config.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)]
+    [at require.resolve (node:internal/modules/helpers:163:19)]
+    [at _resolve (C:\Users\Rahul\Final RAG\rag-app\frontend\node_modules\jiti\dist\jiti.js:1:246378)]
+    [at jiti (C:\Users\Rahul\Final RAG\rag-app\frontend\node_modules\jiti\dist\jiti.js:1:249092)]
+    [at C:\Users\Rahul\Final RAG\rag-app\frontend\tailwind.config.js:73:5]
+    [at evalModule (C:\Users\Rahul\Final RAG\rag-app\frontend\node_modules\jiti\dist\jiti.js:1:251913)]
+    [at jiti (C:\Users\Rahul\Final RAG\rag-app\frontend\node_modules\jiti\dist\jiti.js:1:249841)]
+    [at C:\Users\Rahul\Final RAG\rag-app\frontend\node_modules\tailwindcss\lib\lib\load-config.js:53:30]
+    [at loadConfig (C:\Users\Rahul\Final RAG\rag-app\frontend\node_modules\tailwindcss\lib\lib\load-config.js:55:6)]
+    [at getTailwindConfig (C:\Users\Rahul\Final RAG\rag-app\frontend\node_modules\tailwindcss\lib\lib\setupTrackingContext.js:74:116)]
+
+
+
+./tailwind.config.js:73:5
+Module not found: Can't resolve '@tailwindcss/typography'
+[0m [90m 71 |[39m   }[33m,[39m[0m
+[0m [90m 72 |[39m   plugins[33m:[39m [[0m
+[0m[31m[1m>[22m[39m[90m 73 |[39m     require([32m"@tailwindcss/typography"[39m)[33m,[39m[0m
+[0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 74 |[39m   ][33m,[39m[0m
+[0m [90m 75 |[39m }[33m;[39m[0m
+[0m [90m 76 |[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+^C^C^C^C
