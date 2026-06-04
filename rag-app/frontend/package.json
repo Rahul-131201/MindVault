@@ -10,6 +10,8 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^4.1.0",
+    "animejs": "^4.3.6",
     "clsx": "^2.1.1",
     "highlight.js": "^11.10.0",
     "lucide-react": "^0.511.0",
@@ -24,6 +26,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19",
+    "@types/animejs": "^3.1.13",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",

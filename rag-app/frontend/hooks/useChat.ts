@@ -46,7 +46,7 @@ export interface UseChatReturn {
   sendMessage: (query: string, filters?: Record<string, unknown>) => Promise<void>;
   stopStreaming: () => void;
   clearChat: () => void;
-  bottomRef: React.RefObject<HTMLDivElement | null>;
+  scrollRef: React.RefObject<HTMLElement | null>;
 }
 
 // ---------------------------------------------------------------------------
@@ -92,11 +92,16 @@ export function useChat(): UseChatReturn {
 
   // ---- Refs ---------------------------------------------------------------
   const abortControllerRef = useRef<AbortController | null>(null);
-  const bottomRef = useRef<HTMLDivElement | null>(null);
+  const scrollRef = useRef<HTMLElement | null>(null);
 
   // Auto-scroll to bottom whenever messages update
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (scrollRef.current) {
+      scrollRef.current.scrollTo({
+        top: scrollRef.current.scrollHeight,
+        behavior: "smooth",
+      });
+    }
   }, [messages]);
 
   // Cleanup abort controller on unmount
@@ -266,6 +271,6 @@ export function useChat(): UseChatReturn {
     sendMessage,
     stopStreaming,
     clearChat,
-    bottomRef,
+    scrollRef,
   };
 }

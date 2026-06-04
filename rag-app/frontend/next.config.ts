@@ -42,11 +42,11 @@ const nextConfig: NextConfig = {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval'", // needed for Next.js HMR
-              "style-src 'self' 'unsafe-inline'",
-              "img-src 'self' data: blob:",
-              "font-src 'self'",
-              `connect-src 'self' ${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000"}`,
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com", // needed for Next.js HMR and Spline
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "img-src 'self' data: blob: https://*.spline.design",
+              "font-src 'self' https://fonts.gstatic.com data:",
+              `connect-src 'self' ${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000"} https://*.spline.design https://fonts.googleapis.com https://fonts.gstatic.com`,
             ].join("; "),
           },
         ],

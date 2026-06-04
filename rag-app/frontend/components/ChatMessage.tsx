@@ -119,10 +119,10 @@ function SourcesPanel({ sources }: SourcesPanelProps) {
     <div className="mt-3 space-y-1.5">
       <button
         onClick={() => setOpen((v) => !v)}
-        className="flex items-center gap-1.5 text-xs font-medium text-brand-600 dark:text-brand-400 hover:underline"
+        className="flex items-center gap-1.5 text-xs font-bold text-blue-700 hover:text-blue-800 transition-colors"
       >
         <BookOpen className="h-3.5 w-3.5" />
-        {open ? "Hide" : "Show"} {sources.length} source
+        {open ? "Hide" : "View"} {sources.length} Citation
         {sources.length !== 1 ? "s" : ""}
         {open ? (
           <ChevronUp className="h-3 w-3" />
@@ -214,10 +214,10 @@ export function ChatMessage({ message }: ChatMessageProps) {
       {/* Bubble */}
       <div
         className={clsx(
-          "group relative max-w-[80%] rounded-2xl px-4 py-3 shadow-sm",
+          "group relative max-w-[80%] rounded-3xl px-5 py-4 shadow-[0_8px_32px_0_rgba(31,38,135,0.05)]",
           isUser
-            ? "bg-brand-500 text-white rounded-tr-sm"
-            : "bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 rounded-tl-sm border border-slate-200 dark:border-slate-700",
+            ? "bg-blue-600/90 backdrop-blur-md text-white rounded-tr-sm"
+            : "bg-white/60 backdrop-blur-xl text-slate-900 rounded-tl-sm border border-white/60",
         )}
       >
         {/* Copy button (assistant only) */}
@@ -278,9 +278,9 @@ export function ChatMessage({ message }: ChatMessageProps) {
 
         {/* Fallback notice */}
         {message.fallback && !isUser && (
-          <div className="mt-2 flex items-center gap-1.5 text-xs text-amber-600 dark:text-amber-400">
-            <span className="h-1.5 w-1.5 rounded-full bg-amber-500" />
-            Answer from general knowledge — no matching documents found
+          <div className="mt-3 flex items-center gap-2 text-[11px] font-medium text-amber-700 bg-amber-50 px-3 py-1.5 rounded-md border border-amber-200">
+            <span className="h-1.5 w-1.5 rounded-full bg-amber-500 shrink-0" />
+            Synthesized from general intelligence — external to document corpus
           </div>
         )}
 
