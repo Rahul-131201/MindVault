@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "builds": [
+    {
+      "src": "rag-app/frontend/package.json",
+      "use": "@vercel/next"
+    }
+  ]
+}
