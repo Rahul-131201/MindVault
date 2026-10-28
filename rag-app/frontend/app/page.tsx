@@ -12,7 +12,10 @@ export default function Home() {
       {/* 1. Landing Page Section */}
       <main className="relative w-full h-screen overflow-hidden">
         {/* 3D Spline Background */}
-        <div className="absolute inset-0 z-0">
+        <div 
+          className="absolute inset-0 z-0 pointer-events-none"
+          style={{ clipPath: 'inset(0 0 0 50%)' }}
+        >
           <Spline
             scene="https://prod.spline.design/yju81WUGUIehB4EJ/scene.splinecode?v=2" 
           />

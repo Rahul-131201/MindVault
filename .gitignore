@@ -18,3 +18,7 @@ npm-debug.log
 .env.local
 .env.example
 *.env
+*.log
+**/data/
+*.faiss
+*.pkl
